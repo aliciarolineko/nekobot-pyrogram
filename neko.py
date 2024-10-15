@@ -28,6 +28,7 @@ allowed_users = admin_users + users + temp_users + temp_chats
 
 app = Client("my_bot", api_id=api_id, api_hash=api_hash, bot_token=bot_token)
 
+
 compression_size = 10  # Tamaño de compresión por defecto en MB
 file_counter = 0
 bot_in_use = False
